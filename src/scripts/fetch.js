@@ -1,7 +1,7 @@
 import { useStore, useSanitize } from './util.js';
 
-export const PIPED_INSTANCE = 'pipedapi.kavin.rocks';
-export const HYPERPIPE_INSTANCE = 'hyperpipeapi.onrender.com';
+export const PIPED_INSTANCE = 'play.metastem.su';
+export const HYPERPIPE_INSTANCE = 'music.metastem.su';
 
 export function getPipedQuery() {
   const papi = new URLSearchParams(location.search).get('pipedapi');
